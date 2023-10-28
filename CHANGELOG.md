@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.4.0](https://github.com/stevenambs/pomatez/compare/v1.3.1...v1.4.0) (2023-10-28)
+
+
+### Features ✨
+
+* add support for open at login in the settings tab ([f57e133](https://github.com/stevenambs/pomatez/commit/f57e1335d59938d95c6de4455b96aafcc8a878a2))
+* increase maximum focus time to 2 hours ([#383](https://github.com/stevenambs/pomatez/issues/383)) ([3fc1493](https://github.com/stevenambs/pomatez/commit/3fc14937ee4b08e74390fbd36eb115278f55f179))
+
+
+### Bug Fixes 🐛
+
+* **app/renderer:** fix linter warnings that causes CI test build failing ([26edd59](https://github.com/stevenambs/pomatez/commit/26edd59b26155954208fafc0dc3d933501c11bc9))
+* compact mode layout broke with 120 minutes max timer config ([#393](https://github.com/stevenambs/pomatez/issues/393)) ([c8c3c66](https://github.com/stevenambs/pomatez/commit/c8c3c66460116aefe8a172b4237fa08b52583ffc))
+* disable dragging for navigation links ([#387](https://github.com/stevenambs/pomatez/issues/387)) ([a5b147f](https://github.com/stevenambs/pomatez/commit/a5b147fbac812b2be6e92ce218841bfebe29d790))
+* fix security issues ([bcbd65f](https://github.com/stevenambs/pomatez/commit/bcbd65fa18d5f5531b20ab2ee0462b03ec766b5c)), closes [#407](https://github.com/stevenambs/pomatez/issues/407)
+* javascript error on launch ([#414](https://github.com/stevenambs/pomatez/issues/414)) ([c6c18fb](https://github.com/stevenambs/pomatez/commit/c6c18fb47b424be62a9b91ed64c7c95e8eaa41a3))
+* **lang:** Switch "released notes" with "release notes" ([#439](https://github.com/stevenambs/pomatez/issues/439)) ([d9a3afa](https://github.com/stevenambs/pomatez/commit/d9a3afa11f828084483c1d1e3693ff9b0dc1c8e1))
+* notification type selection issue in settings ([04ddca1](https://github.com/stevenambs/pomatez/commit/04ddca16023bfea1b6496d41769ee7715700354d))
+* Set Application Menu to Fix Mac Shortcuts ([0e6d47f](https://github.com/stevenambs/pomatez/commit/0e6d47f0eb166256f914494518b4ea9e63160c06))
+* toast notification ([#382](https://github.com/stevenambs/pomatez/issues/382)) ([25403d7](https://github.com/stevenambs/pomatez/commit/25403d742d83d0d3654418a43bc5efe8316dc019))
+
 ## [1.3.1](https://github.com/zidoro/pomatez/compare/v1.3.0...v1.3.1) (2023-10-19)
 
 
